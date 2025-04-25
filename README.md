@@ -7,7 +7,7 @@ The goal of this project is to leverage **AI agents** for automating data scienc
 
 ## Contents
 
-1. **Python Notebook (`ipl_agent_analysis.ipynb`)**  
+1. **Python Notebook**  
    - **Data Cleaning**: Handled missing values and standardized key fields  
    - **Feature Engineering**: Created match-level aggregates and encoded labels  
    - **EDA**: Visualized team trends, win distributions, and outcome correlations  
