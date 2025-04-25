@@ -5,34 +5,19 @@ This project focuses on analyzing IPL data for **2023** using **Gemini-powered A
 ## Project Overview
 The goal of this project is to leverage **AI agents** for automating data science workflows, including data cleaning, exploratory data analysis (EDA), and predictive modeling. The analysis aims to uncover key insights from IPL match data and predict match outcomes using machine learning models.
 
-## Contents
+### Inside the Notebook  
+- **AI Agent Setup**: Integrated Gemini AI within Colab for conversational automation.  
+- **Data Cleaning**: Handled missing values, standardized formats, and filtered relevant columns.  
+- **EDA**: Explored win distributions, seasonal team trends, and match outcome patterns.  
+- **Modeling**: Built and evaluated classification models (Random Forest, Logistic Regression, SVC) to predict IPL 2023 outcomes.  
+- **Visualization**: Auto-generated plots such as win distribution by team and box plots of runs vs outcomes.  
+- **Insight Generation**: Agent provided narrative summaries and key observations about influential match features.
 
-1. **Python Notebook**  
-   - **Data Cleaning**: Handled missing values and standardized key fields  
-   - **Feature Engineering**: Created match-level aggregates and encoded labels  
-   - **EDA**: Visualized team trends, win distributions, and outcome correlations  
-   - **Modeling**: Trained and evaluated Random Forest, Logistic Regression, and SVC models  
-   - **AI Agent Interaction**: Iterative prompting to improve results and generate plots
-
-## Key Features
-
-- **AI-Powered Data Cleaning & EDA:** AI agents performed data preprocessing, handled missing values, and created insightful visualizations.
-- **Trend Analysis:** Visualized team performance trends over seasons and match outcomes across different parameters.
-- **Prediction Models:** Developed predictive models to forecast the **IPL 2023 winner** using machine learning algorithms.
-- **Automated Visualizations:** The AI agent automatically generated relevant plots like the **win distribution by team** and **wickets vs. outcomes**.
-- **Data Insights:** AI agent-generated insights like the **impact of wickets** taken by the first batting team and **venue-specific analysis**.
-
----
-
-## Key Findings
-
-- **Winning Team Trends:** AI agent visualized trends showing team performance consistency over multiple IPL seasons.
-- **Match Prediction:** Built predictive models that forecasted **IPL 2023 match outcomes** based on historical data.
-- **Insights from AI Agent:**
-  - Generated line plots showing **win distribution** over seasons.
-  - Created **box plots** visualizing relationships between **runs and match outcomes**.
-  - Provided actionable insights, such as the importance of **wickets taken by the first batting team** in match prediction.
-
+### Highlights  
+- Full pipeline completed via AI prompts — no manual scripting required.  
+- Visualized historical performance trends and patterns across teams.  
+- Prediction models trained to estimate match winners based on historical stats.  
+- AI agent surfaced insightful features (e.g., first innings wickets) and explained performance gaps.  
 
 ## Technologies Used
 - **Google Colab**
